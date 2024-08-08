@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB3783832BECEC1100B03871 /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = EB3783822BECEC1100B03871 /* frame.png */; };
+		EB3783862BECEC3500B03871 /* frame-2.png in Resources */ = {isa = PBXBuildFile; fileRef = EB3783852BECEC3500B03871 /* frame-2.png */; };
+		EB3783882BECEC4000B03871 /* frame-3.png in Resources */ = {isa = PBXBuildFile; fileRef = EB3783872BECEC4000B03871 /* frame-3.png */; };
+		EB91B0B62BED667900F70A11 /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB91B0B52BED667900F70A11 /* Firebase.swift */; };
+		EBC3E5352BEC3F4800C246A1 /* testScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC3E5342BEC3F4800C246A1 /* testScan.swift */; };
+		EBD8D9D72BE69EC100F634FB /* Park_SmartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD8D9D62BE69EC100F634FB /* Park_SmartApp.swift */; };
+		EBD8D9D92BE69EC100F634FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD8D9D82BE69EC100F634FB /* ContentView.swift */; };
+		EBD8D9DB2BE69EC100F634FB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD8D9DA2BE69EC100F634FB /* Item.swift */; };
+		EBD8D9DD2BE69EC200F634FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD8D9DC2BE69EC200F634FB /* Assets.xcassets */; };
+		EBD8D9E02BE69EC200F634FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBD8D9DF2BE69EC200F634FB /* Preview Assets.xcassets */; };
+		EBD8D9EA2BE69EC200F634FB /* Park_SmartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD8D9E92BE69EC200F634FB /* Park_SmartTests.swift */; };
+		EBD8D9F42BE69EC200F634FB /* Park_SmartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD8D9F32BE69EC200F634FB /* Park_SmartUITests.swift */; };
+		EBD8D9F62BE69EC200F634FB /* Park_SmartUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD8D9F52BE69EC200F634FB /* Park_SmartUITestsLaunchTests.swift */; };
+		EBEABB5B2BE6E4EA0020AD5D /* QRCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEABB5A2BE6E4EA0020AD5D /* QRCodeScannerView.swift */; };
+		EBEABB5D2BE6E5110020AD5D /* QRScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEABB5C2BE6E5110020AD5D /* QRScannerViewController.swift */; };
+		EBF23AFB2BE9249500F46AC8 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF23AFA2BE9249500F46AC8 /* LogInView.swift */; };
+		EBF23AFF2BE9974C00F46AC8 /* PaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF23AFE2BE9974C00F46AC8 /* PaymentView.swift */; };
+		EBF23B032BE999B400F46AC8 /* ParkingSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF23B022BE999B400F46AC8 /* ParkingSpot.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBD8D9E62BE69EC200F634FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD8D9CB2BE69EC100F634FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD8D9D22BE69EC100F634FB;
+			remoteInfo = "Park-Smart";
+		};
+		EBD8D9F02BE69EC200F634FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBD8D9CB2BE69EC100F634FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD8D9D22BE69EC100F634FB;
+			remoteInfo = "Park-Smart";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB3783822BECEC1100B03871 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frame.png; path = ../../../Downloads/frame.png; sourceTree = "<group>"; };
+		EB3783852BECEC3500B03871 /* frame-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "frame-2.png"; path = "../../../Downloads/frame-2.png"; sourceTree = "<group>"; };
+		EB3783872BECEC4000B03871 /* frame-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "frame-3.png"; path = "../../../Downloads/frame-3.png"; sourceTree = "<group>"; };
+		EB91B0B52BED667900F70A11 /* Firebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
+		EBC3E5342BEC3F4800C246A1 /* testScan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testScan.swift; sourceTree = "<group>"; };
+		EBC505D82BE77F21006C6830 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EBD8D9D32BE69EC100F634FB /* Park-Smart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Park-Smart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD8D9D62BE69EC100F634FB /* Park_SmartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park_SmartApp.swift; sourceTree = "<group>"; };
+		EBD8D9D82BE69EC100F634FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBD8D9DA2BE69EC100F634FB /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EBD8D9DC2BE69EC200F634FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBD8D9DF2BE69EC200F634FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBD8D9E52BE69EC200F634FB /* Park-SmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Park-SmartTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD8D9E92BE69EC200F634FB /* Park_SmartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park_SmartTests.swift; sourceTree = "<group>"; };
+		EBD8D9EF2BE69EC200F634FB /* Park-SmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Park-SmartUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD8D9F32BE69EC200F634FB /* Park_SmartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park_SmartUITests.swift; sourceTree = "<group>"; };
+		EBD8D9F52BE69EC200F634FB /* Park_SmartUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Park_SmartUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EBEABB5A2BE6E4EA0020AD5D /* QRCodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerView.swift; sourceTree = "<group>"; };
+		EBEABB5C2BE6E5110020AD5D /* QRScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerViewController.swift; sourceTree = "<group>"; };
+		EBF23AFA2BE9249500F46AC8 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		EBF23AFE2BE9974C00F46AC8 /* PaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentView.swift; sourceTree = "<group>"; };
+		EBF23B022BE999B400F46AC8 /* ParkingSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingSpot.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBD8D9D02BE69EC100F634FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD8D9E22BE69EC200F634FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD8D9EC2BE69EC200F634FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBD8D9CA2BE69EC100F634FB = {
+			isa = PBXGroup;
+			children = (
+				EBD8D9D52BE69EC100F634FB /* Park-Smart */,
+				EBD8D9E82BE69EC200F634FB /* Park-SmartTests */,
+				EBD8D9F22BE69EC200F634FB /* Park-SmartUITests */,
+				EBD8D9D42BE69EC100F634FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBD8D9D42BE69EC100F634FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBD8D9D32BE69EC100F634FB /* Park-Smart.app */,
+				EBD8D9E52BE69EC200F634FB /* Park-SmartTests.xctest */,
+				EBD8D9EF2BE69EC200F634FB /* Park-SmartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBD8D9D52BE69EC100F634FB /* Park-Smart */ = {
+			isa = PBXGroup;
+			children = (
+				EBC505D82BE77F21006C6830 /* Info.plist */,
+				EBD8D9D62BE69EC100F634FB /* Park_SmartApp.swift */,
+				EBF23AFA2BE9249500F46AC8 /* LogInView.swift */,
+				EBD8D9D82BE69EC100F634FB /* ContentView.swift */,
+				EBF23B022BE999B400F46AC8 /* ParkingSpot.swift */,
+				EBF23AFE2BE9974C00F46AC8 /* PaymentView.swift */,
+				EBEABB5C2BE6E5110020AD5D /* QRScannerViewController.swift */,
+				EBD8D9DA2BE69EC100F634FB /* Item.swift */,
+				EBD8D9DC2BE69EC200F634FB /* Assets.xcassets */,
+				EBEABB5A2BE6E4EA0020AD5D /* QRCodeScannerView.swift */,
+				EBC3E5342BEC3F4800C246A1 /* testScan.swift */,
+				EB91B0B52BED667900F70A11 /* Firebase.swift */,
+				EBD8D9DE2BE69EC200F634FB /* Preview Content */,
+			);
+			path = "Park-Smart";
+			sourceTree = "<group>";
+		};
+		EBD8D9DE2BE69EC200F634FB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EBD8D9DF2BE69EC200F634FB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBD8D9E82BE69EC200F634FB /* Park-SmartTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD8D9E92BE69EC200F634FB /* Park_SmartTests.swift */,
+			);
+			path = "Park-SmartTests";
+			sourceTree = "<group>";
+		};
+		EBD8D9F22BE69EC200F634FB /* Park-SmartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBD8D9F32BE69EC200F634FB /* Park_SmartUITests.swift */,
+				EBD8D9F52BE69EC200F634FB /* Park_SmartUITestsLaunchTests.swift */,
+				EB3783822BECEC1100B03871 /* frame.png */,
+				EB3783852BECEC3500B03871 /* frame-2.png */,
+				EB3783872BECEC4000B03871 /* frame-3.png */,
+			);
+			path = "Park-SmartUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBD8D9D22BE69EC100F634FB /* Park-Smart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD8D9F92BE69EC200F634FB /* Build configuration list for PBXNativeTarget "Park-Smart" */;
+			buildPhases = (
+				EBD8D9CF2BE69EC100F634FB /* Sources */,
+				EBD8D9D02BE69EC100F634FB /* Frameworks */,
+				EBD8D9D12BE69EC100F634FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Park-Smart";
+			productName = "Park-Smart";
+			productReference = EBD8D9D32BE69EC100F634FB /* Park-Smart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBD8D9E42BE69EC200F634FB /* Park-SmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD8D9FC2BE69EC200F634FB /* Build configuration list for PBXNativeTarget "Park-SmartTests" */;
+			buildPhases = (
+				EBD8D9E12BE69EC200F634FB /* Sources */,
+				EBD8D9E22BE69EC200F634FB /* Frameworks */,
+				EBD8D9E32BE69EC200F634FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD8D9E72BE69EC200F634FB /* PBXTargetDependency */,
+			);
+			name = "Park-SmartTests";
+			productName = "Park-SmartTests";
+			productReference = EBD8D9E52BE69EC200F634FB /* Park-SmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBD8D9EE2BE69EC200F634FB /* Park-SmartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBD8D9FF2BE69EC200F634FB /* Build configuration list for PBXNativeTarget "Park-SmartUITests" */;
+			buildPhases = (
+				EBD8D9EB2BE69EC200F634FB /* Sources */,
+				EBD8D9EC2BE69EC200F634FB /* Frameworks */,
+				EBD8D9ED2BE69EC200F634FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD8D9F12BE69EC200F634FB /* PBXTargetDependency */,
+			);
+			name = "Park-SmartUITests";
+			productName = "Park-SmartUITests";
+			productReference = EBD8D9EF2BE69EC200F634FB /* Park-SmartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBD8D9CB2BE69EC100F634FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EBD8D9D22BE69EC100F634FB = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					EBD8D9E42BE69EC200F634FB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EBD8D9D22BE69EC100F634FB;
+					};
+					EBD8D9EE2BE69EC200F634FB = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EBD8D9D22BE69EC100F634FB;
+					};
+				};
+			};
+			buildConfigurationList = EBD8D9CE2BE69EC100F634FB /* Build configuration list for PBXProject "Park-Smart" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBD8D9CA2BE69EC100F634FB;
+			productRefGroup = EBD8D9D42BE69EC100F634FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBD8D9D22BE69EC100F634FB /* Park-Smart */,
+				EBD8D9E42BE69EC200F634FB /* Park-SmartTests */,
+				EBD8D9EE2BE69EC200F634FB /* Park-SmartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBD8D9D12BE69EC100F634FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD8D9E02BE69EC200F634FB /* Preview Assets.xcassets in Resources */,
+				EBD8D9DD2BE69EC200F634FB /* Assets.xcassets in Resources */,
+				EB3783832BECEC1100B03871 /* frame.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD8D9E32BE69EC200F634FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD8D9ED2BE69EC200F634FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3783862BECEC3500B03871 /* frame-2.png in Resources */,
+				EB3783882BECEC4000B03871 /* frame-3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBD8D9CF2BE69EC100F634FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB91B0B62BED667900F70A11 /* Firebase.swift in Sources */,
+				EBD8D9D92BE69EC100F634FB /* ContentView.swift in Sources */,
+				EBEABB5D2BE6E5110020AD5D /* QRScannerViewController.swift in Sources */,
+				EBD8D9DB2BE69EC100F634FB /* Item.swift in Sources */,
+				EBD8D9D72BE69EC100F634FB /* Park_SmartApp.swift in Sources */,
+				EBF23AFB2BE9249500F46AC8 /* LogInView.swift in Sources */,
+				EBF23AFF2BE9974C00F46AC8 /* PaymentView.swift in Sources */,
+				EBC3E5352BEC3F4800C246A1 /* testScan.swift in Sources */,
+				EBF23B032BE999B400F46AC8 /* ParkingSpot.swift in Sources */,
+				EBEABB5B2BE6E4EA0020AD5D /* QRCodeScannerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD8D9E12BE69EC200F634FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD8D9EA2BE69EC200F634FB /* Park_SmartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBD8D9EB2BE69EC200F634FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD8D9F62BE69EC200F634FB /* Park_SmartUITestsLaunchTests.swift in Sources */,
+				EBD8D9F42BE69EC200F634FB /* Park_SmartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBD8D9E72BE69EC200F634FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD8D9D22BE69EC100F634FB /* Park-Smart */;
+			targetProxy = EBD8D9E62BE69EC200F634FB /* PBXContainerItemProxy */;
+		};
+		EBD8D9F12BE69EC200F634FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBD8D9D22BE69EC100F634FB /* Park-Smart */;
+			targetProxy = EBD8D9F02BE69EC200F634FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EBD8D9F72BE69EC200F634FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBD8D9F82BE69EC200F634FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBD8D9FA2BE69EC200F634FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Park-Smart/Preview Content\"";
+				DEVELOPMENT_TEAM = XXHT7R3LP6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Park-Smart/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Bu uygulama, QR kodlarını taramak için kamera erişimini kullanır.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sa.Park-Smart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBD8D9FB2BE69EC200F634FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Park-Smart/Preview Content\"";
+				DEVELOPMENT_TEAM = XXHT7R3LP6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Park-Smart/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Bu uygulama, QR kodlarını taramak için kamera erişimini kullanır.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sa.Park-Smart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBD8D9FD2BE69EC200F634FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XXHT7R3LP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sa.Park-SmartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Park-Smart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Park-Smart";
+			};
+			name = Debug;
+		};
+		EBD8D9FE2BE69EC200F634FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XXHT7R3LP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sa.Park-SmartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Park-Smart.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Park-Smart";
+			};
+			name = Release;
+		};
+		EBD8DA002BE69EC200F634FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XXHT7R3LP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sa.Park-SmartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Park-Smart";
+			};
+			name = Debug;
+		};
+		EBD8DA012BE69EC200F634FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XXHT7R3LP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sa.Park-SmartUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Park-Smart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD8D9CE2BE69EC100F634FB /* Build configuration list for PBXProject "Park-Smart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD8D9F72BE69EC200F634FB /* Debug */,
+				EBD8D9F82BE69EC200F634FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD8D9F92BE69EC200F634FB /* Build configuration list for PBXNativeTarget "Park-Smart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD8D9FA2BE69EC200F634FB /* Debug */,
+				EBD8D9FB2BE69EC200F634FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD8D9FC2BE69EC200F634FB /* Build configuration list for PBXNativeTarget "Park-SmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD8D9FD2BE69EC200F634FB /* Debug */,
+				EBD8D9FE2BE69EC200F634FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBD8D9FF2BE69EC200F634FB /* Build configuration list for PBXNativeTarget "Park-SmartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBD8DA002BE69EC200F634FB /* Debug */,
+				EBD8DA012BE69EC200F634FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBD8D9CB2BE69EC100F634FB /* Project object */;
+}
